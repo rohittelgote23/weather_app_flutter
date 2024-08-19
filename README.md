@@ -7,16 +7,14 @@ A simple and elegant weather application built using Flutter, utilizing the [Ope
 - Display current weather for any location
 - Sunrise and sunset times
 - Weather icons and descriptions
+- Weather Wind Speed & Temperature Chart
 - Light and dark themes
 
 ## Screenshots
 
-![Light Theme](https://github.com/user-attachments/assets/4d8f820b-0539-4a05-b18b-03add0a6644c)
-![Dark Theme](https://github.com/user-attachments/assets/7e154bfb-3b31-4fd5-94c3-122288d1e2ef)
-
-<p align="center">
-  <img src="https://github.com/rohittelgote23/weather_app_flutter/raw/main/screenshots/light_theme.png" alt="Light Theme" width="250" height="500">
-  <img src="https://github.com/rohittelgote23/weather_app_flutter/raw/main/screenshots/dark_theme.png" alt="Dark Theme" width="250" height="500">
+<p>
+  <img src="https://github.com/user-attachments/assets/4d8f820b-0539-4a05-b18b-03add0a6644c" alt="Light Theme" title="Light Theme" width="250" height="500" style='margin-right:20px;'>
+  <img src="https://github.com/user-attachments/assets/7e154bfb-3b31-4fd5-94c3-122288d1e2ef" alt="Dark Theme"  title="Dark Theme"width="250" height="500">
 </p>
 
 ## Installation
@@ -39,9 +37,9 @@ A simple and elegant weather application built using Flutter, utilizing the [Ope
     - Sign up for a free API key at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up).
     - Create a `.env` file in the root of the project and add your API key:
 
-      ```bash
-      API_KEY=your_openweathermap_api_key
-      ```
+    ```bash
+    API_KEY=your_openweathermap_api_key
+    ```
 
 4. **Run the app**:
 
@@ -52,16 +50,4 @@ A simple and elegant weather application built using Flutter, utilizing the [Ope
 ## Usage
 
 - Enter the name of a city to get the current weather data.
-- Toggle between Celsius and Fahrenheit using the settings menu.
 - Enjoy the app in both light and dark modes.
-
-## Folder Structure
-
-```plaintext
-lib/
-│
-├── main.dart             # Entry point of the application
-├── models/               # Data models for weather data
-├── services/             # API service for fetching weather data
-├── screens/              # Different screens (Home, Settings)
-└── widgets/              # Reusable widgets (WeatherCard, ThemeToggle)
